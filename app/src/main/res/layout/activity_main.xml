@@ -17,26 +17,28 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       app:flat_tint_background="@color/colorAccent"
+      app:flat_tint_radius="5dp"
+      android:layout_margin="8dp"
       android:text="FlatTintButton"
       />
 
-  <Button
+  <com.yatatsu.flattintbutton.FlatTintButton
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="DEFAULT BUTTON"
+      app:flat_tint_background="@color/button_color"
+      app:flat_tint_radius="5dp"
+      android:layout_margin="8dp"
+      android:text="FlatTintButton disable"
+      android:enabled="false"
       />
 
-  <Button
+  <com.yatatsu.flattintbutton.FlatTintButton
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:background="@color/colorAccent"
-      android:text="BUTTON"
-      />
-
-  <android.support.v7.widget.AppCompatButton
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="AppCompatButton"
+      app:flat_tint_background="@color/button_color"
+      app:flat_tint_radius="5dp"
+      android:layout_margin="8dp"
+      android:text="FlatTintButton enable"
       />
 
 
