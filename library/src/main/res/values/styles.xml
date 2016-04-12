@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="FlatTintButton" parent="Widget.AppCompat.Button">
-    <item name="flat_tint_layer">@color/layer_default</item>
+    <item name="ftb_layerTint">@color/ftb_layer_default</item>
   </style>
 </resources>

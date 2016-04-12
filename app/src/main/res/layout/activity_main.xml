@@ -16,8 +16,8 @@
   <com.yatatsu.flattintbutton.FlatTintButton
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      app:flat_tint_background="@color/colorAccent"
-      app:flat_tint_radius="5dp"
+      app:ftb_backgroundTint="@color/colorAccent"
+      app:ftb_buttonRadius="5dp"
       android:layout_margin="8dp"
       android:text="FlatTintButton"
       />
@@ -25,8 +25,8 @@
   <com.yatatsu.flattintbutton.FlatTintButton
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      app:flat_tint_background="@color/button_color"
-      app:flat_tint_radius="5dp"
+      app:ftb_backgroundTint="@color/button_color"
+      app:ftb_buttonRadius="5dp"
       android:layout_margin="8dp"
       android:text="FlatTintButton disable"
       android:enabled="false"
@@ -35,10 +35,22 @@
   <com.yatatsu.flattintbutton.FlatTintButton
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      app:flat_tint_background="@color/button_color"
-      app:flat_tint_radius="5dp"
+      app:ftb_backgroundTint="@color/button_color"
+      app:ftb_buttonRadius="5dp"
       android:layout_margin="8dp"
       android:text="FlatTintButton enable"
+      />
+
+
+
+  <com.yatatsu.flattintbutton.FlatTintButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:ftb_backgroundTint="@color/colorAccent"
+      app:ftb_layerTint="#1fff0000"
+      app:ftb_buttonRadius="5dp"
+      android:layout_margin="8dp"
+      android:text="custom layer"
       />
 
 

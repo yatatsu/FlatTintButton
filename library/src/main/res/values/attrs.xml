@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <declare-styleable name="FlatTintButton">
-    <attr name="flat_tint_background" format="color|reference" />
-    <attr name="flat_tint_layer" format="color|reference" />
-    <attr name="flat_tint_radius" format="dimension" />
+    <attr name="ftb_backgroundTint" format="color|reference" />
+    <attr name="ftb_layerTint" format="color|reference" />
+    <attr name="ftb_buttonRadius" format="dimension" />
   </declare-styleable>
 </resources>

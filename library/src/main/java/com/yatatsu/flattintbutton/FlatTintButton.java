@@ -31,9 +31,9 @@ public class FlatTintButton extends AppCompatButton {
   private void init(Context context, AttributeSet attrs, int defStyle) {
     final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.FlatTintButton,
         defStyle, R.style.FlatTintButton);
-    ColorStateList tint = a.getColorStateList(R.styleable.FlatTintButton_flat_tint_background);
-    int layerColor = a.getColor(R.styleable.FlatTintButton_flat_tint_layer, 0);
-    float radius = a.getDimension(R.styleable.FlatTintButton_flat_tint_radius, 0);
+    ColorStateList tint = a.getColorStateList(R.styleable.FlatTintButton_ftb_backgroundTint);
+    int layerColor = a.getColor(R.styleable.FlatTintButton_ftb_layerTint, 0);
+    float radius = a.getDimension(R.styleable.FlatTintButton_ftb_buttonRadius, 0);
     a.recycle();
     if (tint != null) {
       int normalTint = tint.getColorForState(new int[]{ android.R.attr.state_enabled }, 0);
